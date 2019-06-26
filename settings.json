@@ -1,0 +1,51 @@
+{
+  "workbench.colorTheme": "Monokai Mega",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorCustomizations": {},
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "none",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "punctuation.accessor",
+        "settings": {
+          "foreground": "#FF0000"
+        }
+      },
+      {
+        "scope": "meta.function-call entity.name.function",
+        "settings": {
+          "foreground": "#66D9EF"
+        }
+      },
+      {
+        "scope": "meta.structure.dictionary.json support.type.property-name.json",
+        "settings": {
+          "foreground": "#66D9EF"
+        }
+      },
+      {
+        "scope": "punctuation.support.type.property-name.begin.json",
+        "settings": {
+          "foreground": "#66D9EF"
+        }
+      }
+    ],
+    "comments": "#BCBCBC"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.disableLanguages": ["javascript"],
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  }
+}
