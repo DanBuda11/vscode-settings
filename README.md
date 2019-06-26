@@ -9,7 +9,7 @@ For a non-React environment, make the following changes to installed packages:
 - Replace `eslint-config-airbnb` with `eslint-config-airbnb-base`
 - Remove `eslint-plugin-jsx-a11y`, `eslint-plugin-react`, and `eslint-plugin-react-hooks`
 
-And in `.estlintrc.json`, remove:
+And in `.estlintrc.json`, replace `"extends": ["airbnb"]` with `"extends": ["airbnb-base"]` and remove:
 
 - ```js
   "ecmaFeatures": {
