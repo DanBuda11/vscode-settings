@@ -11,11 +11,19 @@ For a non-React environment, make the following changes to installed packages:
 
 And in `.estlintrc.json`, remove:
 
-- ```
+- ```js
   "ecmaFeatures": {
-      "jsx": true
+    "jsx": true
   }
   ```
-- ```
+- ```js
   "extends": ["prettier/react"]
+  ```
+- ```js
+  "react/jsx-filename-extension": [
+    1,
+    {
+      "extensions": [".js", ".jsx"]
+    }
+  ]
   ```
