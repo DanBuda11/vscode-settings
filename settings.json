@@ -45,6 +45,9 @@
   "prettier.disableLanguages": ["javascript"],
   "prettier.stylelintIntegration": true,
   "prettier.eslintIntegration": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "[javascript]": {
     "editor.formatOnSave": false
   }
