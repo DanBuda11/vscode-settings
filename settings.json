@@ -1,13 +1,18 @@
 {
   "workbench.colorTheme": "Monokai Mega",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.statusBar.feedback.visible": false,
+  "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {},
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "none",
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.parameterHints.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -37,18 +42,25 @@
     ],
     "comments": "#BCBCBC"
   },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "prettier.disableLanguages": ["javascript"],
+  "breadcrumbs.enabled": true,
+  "window.zoomLevel": 0,
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
   "eslint.alwaysShowStatus": true,
-  "eslint.autoFixOnSave": true,
-  "prettier.disableLanguages": ["javascript"],
-  "prettier.stylelintIntegration": true,
-  "prettier.eslintIntegration": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "[javascript]": {
     "editor.formatOnSave": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
