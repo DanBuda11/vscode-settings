@@ -43,24 +43,17 @@
     "comments": "#BCBCBC"
   },
   "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  "prettier.disableLanguages": ["javascript"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "breadcrumbs.enabled": true,
   "window.zoomLevel": 0,
+  "eslint.alwaysShowStatus": true,
+  "emmet.syntaxProfiles": {},
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "eslint.alwaysShowStatus": true,
   "[javascript]": {
     "editor.formatOnSave": false
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
