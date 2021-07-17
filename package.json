@@ -17,7 +17,6 @@
     "url": "https://github.com/DanBuda11/vscode-settings/issues"
   },
   "homepage": "https://github.com/DanBuda11/vscode-settings#readme",
-  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.2.0",
